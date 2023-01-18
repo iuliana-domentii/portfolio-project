@@ -1,10 +1,48 @@
 h1 {
-  text-align: center;
   font-family: "Secular One", sans-serif;
 }
+:root {
+  --main-font-family: "Lora", serif;
+  --shadows: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 
-p {
+.hero {
   text-align: center;
-  font-family: "Lora", serif;
-  background-color: bisque;
+  background: linear-gradient(
+    180.3deg,
+    rgb(214, 224, 255) 37.2%,
+    rgb(254, 168, 168) 137.3%
+  );
+  padding: 160px 20px;
+}
+.hero h2 {
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: 28px;
+}
+.hero h1 {
+  font-size: 40px;
+}
+.hero p {
+  font-family: var(--main-font-family);
+  font-size: 24px;
+}
+
+.hero img {
+  width: 400px;
+  border-radius: 25px;
+  height: auto;
+  box-shadow: var(--shadows);
+}
+.start-btn {
+  background-color: #5dacbd !important;
+  color: #343a2a !important;
+  font-family: var(--main-font-family) !important;
+  border-color: #343a2a !important;
+  font-weight: bold !important;
+  box-shadow: var(--shadows);
+}
+
+.hero-photo-btn {
+  margin-top: 50px;
 }
