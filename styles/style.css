@@ -1,6 +1,21 @@
 h1 {
   font-family: "Secular One", sans-serif;
 }
+h2,
+h3 {
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: 28px;
+}
+body {
+  text-align: center;
+  background: linear-gradient(
+    180.3deg,
+    rgb(214, 224, 255) 37.2%,
+    rgb(254, 168, 168) 137.3%
+  );
+}
+
 :root {
   --main-font-family: "Lora", serif;
   --shadows: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -8,18 +23,9 @@ h1 {
 
 .hero {
   text-align: center;
-  background: linear-gradient(
-    180.3deg,
-    rgb(214, 224, 255) 37.2%,
-    rgb(254, 168, 168) 137.3%
-  );
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
-.hero h2 {
-  font-family: var(--main-font-family);
-  font-weight: bold;
-  font-size: 28px;
-}
+
 .hero h1 {
   font-size: 40px;
 }
@@ -29,7 +35,7 @@ h1 {
 }
 
 .hero img {
-  width: 400px;
+  width: 500px;
   border-radius: 25px;
   height: auto;
   box-shadow: var(--shadows);
@@ -45,4 +51,49 @@ h1 {
 
 .hero-photo-btn {
   margin-top: 50px;
+}
+.introduction-to-projects h3 {
+  font-weight: bold;
+}
+.my-projects {
+  background: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+
+.my-projects img {
+  width: 450px;
+  border-radius: 5px;
+  height: auto;
+  box-shadow: var(--shadows);
+}
+.my-projects h2 {
+  font-weight: bold;
+}
+.my-projects p {
+  font-style: italic;
+}
+.project-description {
+  line-height: 25px;
+}
+.weather-btn,
+.coffee-btn {
+  background-color: #d6a07e !important;
+  color: #343a2a !important;
+  font-family: var(--main-font-family) !important;
+  border-color: #343a2a !important;
+  font-weight: bold !important;
+  box-shadow: var(--shadows);
+}
+.weather-btn {
+  background-color: #ffe3e1 !important;
+}
+@media (max-width: 900px) {
+  img {
+    width: 300px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 18px;
+  }
 }
