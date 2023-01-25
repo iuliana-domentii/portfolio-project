@@ -20,7 +20,10 @@ body {
   --main-font-family: "Lora", serif;
   --shadows: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+.navbar {
+  font-family: var(--main-font-family);
+  color: #343a2a;
+}
 .hero {
   text-align: center;
   padding: 120px 20px;
@@ -96,4 +99,19 @@ body {
   p {
     font-size: 18px;
   }
+  a:link {
+    font-size: 18px;
+  }
+}
+
+a:link {
+  text-decoration: none;
+  color: #343a2a;
+}
+.contact-me {
+  font-size: 30px;
+}
+.instagram,
+.linkedin {
+  color: #343a2a;
 }
