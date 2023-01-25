@@ -115,3 +115,21 @@ a:link {
 .linkedin {
   color: #343a2a;
 }
+.about-me img {
+  width: 400px;
+  border-radius: 900px;
+  height: auto;
+  box-shadow: var(--shadows);
+}
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.work-btn {
+  background-color: #a7242b !important;
+  color: #d6e0ff !important;
+  font-family: var(--main-font-family) !important;
+  border-color: #a7242b !important;
+  font-weight: bold !important;
+  box-shadow: var(--shadows);
+}
