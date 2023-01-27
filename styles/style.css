@@ -133,3 +133,22 @@ a:link {
   font-weight: bold !important;
   box-shadow: var(--shadows);
 }
+
+.details p {
+  font-size: 20px;
+  color: #412a26;
+}
+.details h2 {
+  font-size: 35px;
+  color: #412a26;
+}
+.details img {
+  width: 500px;
+  border-radius: 3px;
+}
+.thoughts {
+  font-size: 25px;
+}
+.thoughts a {
+  font-family: "Secular One", sans-serif;
+}
