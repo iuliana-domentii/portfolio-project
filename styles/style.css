@@ -7,6 +7,10 @@ h3 {
   font-weight: bold;
   font-size: 28px;
 }
+h4 {
+  font-family: "Secular One", sans-serif;
+  color: #343a2a;
+}
 body {
   text-align: center;
   background: linear-gradient(
@@ -155,4 +159,7 @@ a:link {
 }
 .thoughts a {
   font-family: "Secular One", sans-serif;
+}
+.me-again img {
+  width: 50%;
 }
