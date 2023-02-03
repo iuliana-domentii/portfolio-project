@@ -62,7 +62,8 @@ body {
 .introduction-to-projects h3 {
   font-weight: bold;
 }
-.my-projects {
+.my-projects,
+.contact-box {
   background: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
 }
 
@@ -96,6 +97,7 @@ body {
 @media (max-width: 900px) {
   img {
     width: 300px;
+    margin-bottom: 30px;
   }
   h2 {
     font-size: 22px;
@@ -133,7 +135,8 @@ a:link {
   font-size: 18px;
   line-height: 1.5;
 }
-.work-btn {
+.work-btn,
+.contact-btn {
   background-color: #a7242b !important;
   color: #d6e0ff !important;
   font-family: var(--main-font-family) !important;
@@ -162,4 +165,9 @@ a:link {
 }
 .me-again img {
   width: 50%;
+}
+.contact-box {
+  padding: 15px 120px;
+  border: 5px double #412a26;
+  border-radius: 3px;
 }
